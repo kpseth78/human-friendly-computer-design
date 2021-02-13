@@ -106,7 +106,7 @@ const createComment = (ev) => {
     id = url.substring(url.lastIndexOf('#') + 1);
     const data = {
         comment: document.querySelector('#content').value,
-        author: "Masum",
+        author: "Krish",
         post_id: id
     };
     console.log(data);
